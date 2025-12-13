@@ -1,9 +1,6 @@
-### BIMM 182 Final Project - Problem 3
-### Identify SV type of every discordant edge
-
 import os
 
-os.chdir("/Users/evelynquan/Downloads/classes/BIMM 182/final-project/all_discordant_edges")
+os.chdir("final-project/all_discordant_edges")
 
 # Set up SV frequencies file
 with open("../sv_frequencies.tsv", "w") as sv_frequencies:
